@@ -1,6 +1,15 @@
+/*
+ * @Description: react-native-carrot-utils,
+ * Provide some small development tool classes, 
+ * such as time processing classes, image processing classes...
+ * @Author: wanglh
+ * @LastEditors: wanglh
+ * @Date: 2019-03-14 16:42:37
+ * @LastEditTime: 2019-04-04 16:28:41
+ */
 
-import { NativeModules } from 'react-native';
+import DateUtil from './src/DateUtil';
 
-const { RNCarrotUtils } = NativeModules;
-
-export default RNCarrotUtils;
+export {
+    DateUtil
+};
