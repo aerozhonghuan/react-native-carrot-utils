@@ -26,4 +26,10 @@ import { DateUtil } from 'react-native-carrot-utils';
 
 | Method  | Params  | Description |
 | :------------ |:---------------:| :---------------:|
-| `static` formatTimestamp | `timestamp`:number;`fomatter`:string, Default format:YYYY-MM-DD HH:mm:ss |Format a timestamp in a fomatter |
+| `static` formatTimestamp | `timestamp:number`,`fomatter:string` | Format a timestamp in a fomatter,Default format:YYYY-MM-DD HH:mm:ss  |
+| `static` getTimestamp | `dateString: string`,`fomatter:string` | Time string conversion timestamp |
+| `static` getCurrentTimestamp | - | Get the current timestamp |
+| `static` getBeforeDayDate | `dayNum:number` | Format a timestamp in a fomatter,Default format:YYYY-MM-DD HH:mm:ss  |
+| `static` getAfterDayDate | `dayNum:number` | Get the date after n days  |
+| `static` getCurrentMonthFirst | - | Get the date of the first day of the current month  |
+| `static` getCurrentMonthLast | - | Get the date of the last day of the current month  |

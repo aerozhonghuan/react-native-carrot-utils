@@ -1,11 +1,11 @@
 /*
  * @Description: react-native-carrot-utils,
  * Provide some small development tool classes, 
- * such as time processing classes, image processing classes...
+ * such as time processing class, image processing class...
  * @Author: wanglh
  * @LastEditors: wanglh
  * @Date: 2019-03-14 16:42:37
- * @LastEditTime: 2019-04-04 16:28:24
+ * @LastEditTime: 2019-04-18 15:50:36
  */
 
 declare module 'react-native-carrot-utils' {
@@ -20,7 +20,7 @@ declare module 'react-native-carrot-utils' {
 
         /**
          * @description:Time string conversion timestamp
-         * @param timestamp {string}
+         * @param dateString {string}
          * @param fomatter {string}
          * @return: timestamp {number}
          */
