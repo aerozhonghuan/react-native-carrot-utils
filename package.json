@@ -1,7 +1,6 @@
-
 {
   "name": "react-native-carrot-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide some small development tool classes, such as time processing classes, image processing classes ...",
   "main": "index.js",
   "scripts": {
